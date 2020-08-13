@@ -3,9 +3,9 @@
 
 ## Description
 
-An application to help generate README's faster.
+An application that helps generate README's faster
 
-##Table of Contents
+## Table of Contents
 
 -[Installation](#Installation)
 
