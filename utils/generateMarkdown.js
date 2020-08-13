@@ -2,7 +2,7 @@ function generateMarkdown(responses) {
     return `# ${responses.title}
     ${responses.description}
     ## Table of Contents
-    -[Installation] (#Installation)
+    -[Installation](#Installation)
     -[Usage](#usage)
     -[Guideline](#guidelines)
     -[Test](#test)
@@ -12,14 +12,14 @@ function generateMarkdown(responses) {
     ## Usage
     ${responses.usage}
     ## License
-    This project is licensed under ${responses.license}.
+    This project is licensed under ${responses.license}. [License](https://img.shields.io/npm/l/inquirer)
     ## Contributing
     ${responses.guidelines}
     ## Test
     ${responses.test}
     ## Questions
     For any questions, please email me at ${responses.email}. 
-    You can also check out more of my work on my github page. User name is ${data.github}
+    You can also check out more of my work on my github page. User name is ${responses.github}
   `;
   }
   
