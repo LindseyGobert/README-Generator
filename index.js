@@ -66,12 +66,14 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(responses =>{
-        if (responses.quit === true) {
-            return writeToFile("README.md", generateMarkdown(responses));
-        };
-    })
-};
+    inquirer.prompt(questions).then((responses) =>
+        fs.writeFile("README.md", generateMarkdown(responses), function (err) {
+            if (err) {
+                console.log(err);
+            }
+        })
+    );
+}
 
 // function call to initialize program
 init();
