@@ -1,7 +1,6 @@
 let inquirer = require("inquirer");
 let fs = require("fs");
 let generateMarkdown = require("./utils/generateMarkdown");
-const { fetchAsyncQuestionPropertyQuestionProperty } = require("inquirer/lib/utils/utils");
 
 
 let questions = [
@@ -71,7 +70,7 @@ function init() {
         if (responses.quit === true) {
             return writeToFile("README.md", generateMarkdown(responses));
         };
-    });
+    })
 };
 
 // function call to initialize program
