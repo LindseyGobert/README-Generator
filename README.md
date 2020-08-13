@@ -1,9 +1,9 @@
  
-    # lsnv
+    # README generator
 
     ## Description
    
-    sjvn
+    Application to generate README's faster
     
     ##Table of Contents
     -[Installation](#Installation)
@@ -15,11 +15,11 @@
     
     ## Installation
     
-    svn
+    n/a
     
     ## Usage
     
-    sjvn
+    n/a
     
     ## License
     
@@ -27,12 +27,12 @@
     
     ## Contributing
     
-    sjvn
+    n/a
     
     ## Test
     
-    sjvn
+    n/a
     
     ## Questions
-    For any questions, please email me at lsvn. 
-    You can also check out more of my work on my github page. User name is lsnv
+    For any questions, please email me at lmgobert1@gmail.com. 
+    You can also check out more of my work on my github page. User name is LindseyGobert
